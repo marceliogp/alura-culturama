@@ -43,7 +43,7 @@
     max-width: 400px;
 }
 
-/* Agenda */
+/*Agenda ATIVIDADE PARA SABER MAIS */
 
 .agenda__lista {
     display: flex;
@@ -56,7 +56,6 @@
 .agenda__item {
     flex-grow: 1;
 }
-
 
 @media (min-width: 720px) {
 
@@ -80,11 +79,13 @@
         justify-content: end;
     }
 
-    /* Agenda */
+    /*Agenda ATIVIDADE PARA SABER MAIS */
 
     .agenda__lista {
         justify-content: end;
+
     }
+
 }
 
 @media (min-width: 1440px) {
@@ -95,7 +96,7 @@
         column-gap: 105px;
         flex-wrap: nowrap;
     }
-    
+
     .menu__item:nth-child(1) {
         order: 1;
     }
@@ -115,7 +116,5 @@
     .menu__item:nth-child(5) {
         order: 2;
     }
-
-    /* Categorias */
 
 }
