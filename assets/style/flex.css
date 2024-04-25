@@ -57,7 +57,7 @@
     flex-grow: 1;
 }
 
-/* Rodapé */
+/* Rodapé */ 
 
 .rodape {
     display: flex;
@@ -129,33 +129,4 @@
         order: 2;
     }
 
-    /* Categorias */
-
-    .categorias {
-        display: grid;
-        grid-template-areas:
-            "titulo titulo"
-            "lista destaque"
-            "lista imagem";
-        row-gap: 1rem;
-        column-gap: 1.5rem;
-        grid-template-columns: calc(50% - 0.75rem);
-        grid-template-rows: auto 1fr auto;
-    }
-
-    .categorias__titulo {
-        grid-area: titulo;
-    }
-     
-    .categorias__lista {
-        grid-area: lista;
-     }
-     
-    .categorias__destaques {
-        grid-area: destaque;
-    }
-     
-    .categorias__imagem {
-        grid-area: imagem;
-    }
 }
